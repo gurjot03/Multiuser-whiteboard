@@ -1,0 +1,112 @@
+#p1{
+    padding-top: 150px;
+  }
+  html,
+  body {
+    padding-top: 0%;
+    height: 100%;
+  }
+  
+  body {
+    background-image:url( https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000);
+    align-items: center;
+  
+    padding-bottom: 40px;
+  }
+  
+  .form-signin {
+    max-width: 330px;
+    padding: 15px;
+  }
+  
+  #textarea{
+   background-color: rgb(234, 201, 201);
+   border-radius: 10px;
+   width: 95%;
+  }
+  .main{
+    margin-top: 5%;
+  }
+  .pen-tools{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 60%;
+    margin: auto;
+  }
+  p {
+    text-align: center;
+  }
+  .drawing-colors{
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .color-circle{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-left: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+  
+  }
+  
+  .color-circle:nth-child(1){
+    background-color: hotpink;
+  }
+  
+  .color-circle:nth-child(2){
+    background-color: orange;
+  }
+  
+  .color-circle:nth-child(3){
+    background-color: red;
+  }
+  
+  .color-circle:nth-child(4){
+    background-color: yellow;
+  }
+  .color-circle:nth-child(5){
+    background-color: black;
+  }
+  .color-circle:nth-child(6){
+    background-color: blue;
+  }
+  .color-circle:nth-child(7){
+    background-color: white;
+  }
+  
+  .color-circle:nth-child(8){
+    background-color: green;
+  }
+  .fa-refresh{
+    margin-left:  10px;
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 100px;
+    color: white;
+    cursor: pointer;
+  }
+  .bottom-container {
+    padding-top: 100px;
+    padding-bottom: 10px;
+  }
+  
+  .heading{
+    padding-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: #A31ACB;
+  }
+  .enterid{
+    color: #FF78F0;
+    font-family:'Montserrat';
+    font-weight: 700;
+    font-style: italic;
+  
+  }
+  p1{
+    font-family: 'ubuntu';
+  }
